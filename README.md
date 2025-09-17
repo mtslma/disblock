@@ -166,3 +166,9 @@ java -Xms2G -Xmx4G -jar paper-1.21.4-232.jar --nogui
 Pronto :) Se tudo deu certo, o servidor estará rodando no IP local da sua máquina (aquele do `hostname -I`).
 
 Inicie o jogo pelo launcher com a versão 1.21.4, adicione o servidor na lista de mundos e teste.
+
+## Demonstração em funcionamento
+
+Abaixo, uma captura de tela mostrando o plugin em ação, com mensagens sendo sincronizadas entre o servidor Minecraft e o canal do Discord
+
+![Demonstração](https://i.imgur.com/zhdFFVG.png)
