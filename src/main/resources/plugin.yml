@@ -1,0 +1,11 @@
+name: TalkBlock
+version: '1.0-SNAPSHOT'
+main: xyz.mtslma.talkBlock.TalkBlock
+api-version: '1.21.4'
+commands:
+  talkblock:
+    aliases: [tb]
+    description: Recarrega o arquivo 'config.yml'.
+    usage: /<command> reload
+    permission: talkblock.admin
+    permission-message: Você não tem permissão para usar este comando.

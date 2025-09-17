@@ -1,0 +1,25 @@
+# Token do Bot do Discord
+# Caso não tenha um token você pode seguir esse tutorial para criar um bot: https://discordjs.guide/preparations/setting-up-a-bot-application.html#creating-your-bot
+bot-token: "SEU_TOKEN_AQUI"
+
+# ID do canal do Discord
+# Para pegar o ID de um canal tenha o 'Modo de Desenvolvedor' do Discord ativo e clique com o botão direito em cima do canal desejado
+channel-id: "SEU_ID_DE_CANAL_AQUI"
+
+# URL do Webhook do canal
+# Para criar um Webhook vá até 'Configurações do canal > Integrações > Webhooks > Novo Webhook'
+webhook-url: "SUA_URL_DO_WEBHOOK_AQUI"
+
+# URL para buscar avatar do jogador (%uuid% será substituído pelo UUID do jogador)
+avatar-url: "https://visage.surgeplay.com/face/128/%uuid%"
+
+# Mensagens de entrada e saída
+# Você pode ativar/ desativar usando o enabled, a mensagem também pode ser alterada :)
+# Dá pra usar emojis do servidor se passar o ID dele; Ex: '<a:WinkU:865749015047045141> **%player%** entrou no servidor.'
+connection-messages:
+  join:
+    enabled: true
+    message: "**%player%** entrou no servidor."
+  quit:
+    enabled: true
+    message: "**%player%** saiu do servidor."
