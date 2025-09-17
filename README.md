@@ -149,7 +149,7 @@ screen -S minecraft
 #### Passo 02: Execute o servidor (dentro do 'screen')
 
 ```bash
-java -Xms2G -Xmx4G -jar paper.1.21.4-232.jar --nogui
+java -Xms2G -Xmx4G -jar paper-1.21.4-232.jar --nogui
 ```
 
 #### Comandos úteis no terminal
