@@ -1,4 +1,4 @@
-# TalkBlock
+# Disblock
 
 Plugin para integrar o chat de um servidor Minecraft (PaperMC) com um canal do Discord. Ele cria uma ponte de comunicação bidirecional para que as comunidades interajam em tempo real.
 
